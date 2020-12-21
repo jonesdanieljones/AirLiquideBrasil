@@ -24,7 +24,7 @@ namespace AirLiquide.Infra.Data.Contexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {            
-            optionsBuilder.UseSqlServer("Data Source=localhost;Port=11433;Initial Catalog=DBLiquide;Integrated Security=False;Persist Security Info=False;User ID=SA;Password=DockerSql2017!");
+            //optionsBuilder.UseSqlServer("Data Source=localhost,11433;Initial Catalog=DBLiquide;Integrated Security=False;Persist Security Info=False;User ID=SA;Password=DockerSql2017!");
 
         }
 
