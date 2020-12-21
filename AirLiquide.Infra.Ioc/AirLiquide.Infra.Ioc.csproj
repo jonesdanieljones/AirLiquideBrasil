@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AirLiquide.Application\AirLiquide.Application.csproj" />
+    <ProjectReference Include="..\AirLiquide.Domain\AirLiquide.Domain.csproj" />
+    <ProjectReference Include="..\AirLiquide.Infra.Data\AirLiquide.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
